@@ -16,13 +16,13 @@ steps:
 - task: SendEmail@0
   inputs:
     To: 'dbaker6@gaig.com'
-    From: 'derek.m.baker@gmail.com'
+    From: 'princenathan.baker@gmail.com'
     Subject: 'test'
     Body: 'test'
     SmtpServer: 'smtp.gmail.com'
     SmtpPort: '587'
-    SmtpUsername: 'Derek.m.baker@gmail.com'
-    SmtpPassword: 'BlueFish85'
+    SmtpUsername: 'princenathan.baker@gmail.com'
+    SmtpPassword: '1046618go'
     STARTTLS: TRUE
 
 - script: |
