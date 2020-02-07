@@ -23,7 +23,7 @@ steps:
     SmtpPort: '587'
     SmtpUsername: 'Derek.m.baker@gmail.com'
     SmtpPassword: 'BlueFish85'
-    STARTTLS: 'true'
+    STARTTLS: TRUE
 
 - script: |
     echo Add other tasks to build, test, and deploy your project.
