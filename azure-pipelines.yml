@@ -1,4 +1,14 @@
 # Starter pipeline
+- task: SendEmail@0
+  inputs:
+    To: 'dbaker6@gaig.com'
+    From: 'derek.m.baker@gmail.com'
+    Subject: 'test'
+    Body: 'test'
+    SmtpServer: 'smtp.gmail.com'
+    SmtpPort: '587'
+    SmtpUsername: 'Derek.m.baker@gmail.com'
+    SmtpPassword: 'BlueFish85'
 # Start with a minimal pipeline that you can customize to build and deploy your code.
 # Add steps that build, run tests, deploy, and more:
 # https://aka.ms/yaml
