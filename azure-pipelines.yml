@@ -21,8 +21,8 @@ steps:
     Body: 'test'
     SmtpServer: 'smtp.gmail.com'
     SmtpPort: '587'
-    SmtpUsername: 'princenathan.baker@gmail.com'
-    SmtpPassword: '1046618go'
+    SmtpUsername: 'derek.m.baker@gmail.com'
+    SmtpPassword: 'BlueFish85'
     STARTTLS: TRUE
 
 - script: |
