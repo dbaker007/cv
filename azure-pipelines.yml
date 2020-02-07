@@ -23,6 +23,8 @@ steps:
     SmtpPort: '587'
     SmtpUsername: 'Derek.m.baker@gmail.com'
     SmtpPassword: 'BlueFish85'
+    STARTTLS: true'
+
 - script: |
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
